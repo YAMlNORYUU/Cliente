@@ -58,7 +58,7 @@ public class Cliente extends Thread {
 			// establish a connection
 			try {
 				this.socket = new Socket(this.address, this.port);
-				vp.getConsola().imprimirString("Conectado mi amol");
+				vp.getConsola().imprimirString("Conectado digite la cedula como 123");
 				;
 
 				// sets timeout for server response
